@@ -1,4 +1,4 @@
-@import './reset.scss';
+@import './normalize.scss';
 @import './media.scss';
 
 html,body{
@@ -9,4 +9,19 @@ html,body{
     height: 100%;
 }
 
-$app-background-color: #C0C4CC;
+
+$c_theme: #2f4154; // 系统主题颜色
+$c_content: #f2f2f2; // 内容区背景
+$c_form: #dddddd; // 表单背景
+$c_tips: #f56c6c; // 表单验证提示
+$c_asterisk: #f00; // 表单必填项星号
+$c_switch: #86806b; // switch切换开关
+$c_switch-active: #409eff; // switch切换开关-active
+$c_radio: #999999; // radio单选
+$c_popover: #ffb226; // 相关说明
+
+// 文本颜色 + 边框颜色
+$tb_fff: #ffffff;
+$tb_409eff: #409eff;
+$tb_ffb226: #ffb226;
+$tb_dcdfe6: #dcdfe6;
