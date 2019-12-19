@@ -1,0 +1,43 @@
+@media screen and (max-width: 768px) {
+    #page{
+        #view-login {
+            .content-wrapper {
+                .main-content {
+                    width: auto;
+                    .carousel-box {
+                        display: none;
+                    }
+                    .form-box {
+                        width: 400px;
+                        height: 400px;
+                    }
+                }
+                .alert-tips {
+                    width: auto;
+                }
+            }
+        }
+        #new-user {
+            .plate-wrapper {
+                .register-form {
+                    width: 80%;
+                }
+            }
+        }
+        
+        #user-infos {
+            .plate-wrapper {
+                .infos-update {
+                    width: 80%;
+                }
+            }
+        }
+        #user-pass {
+            .plate-wrapper {
+                .infos-update {
+                    width: 80%;
+                }
+            }
+        }
+    }
+}
