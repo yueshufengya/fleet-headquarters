@@ -1,3 +1,7 @@
+/**
+ * 移动端自适应——rem布局
+ * 这里使用的是网易的移动端自适应方案
+ */
 (function(doc, win) {
     var docEl = doc.documentElement,
         isIOS = navigator.userAgent.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/),
