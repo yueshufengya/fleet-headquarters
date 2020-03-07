@@ -27,9 +27,17 @@ module.exports = {
          */
         proxy: {
             '/devApi': {
-                target: "http://www.fleet.com", //API服务器的地址  http://www.fleet.com
+                target: "http://www.fleet.com", // API服务器的地址  http://www.fleet.com
+                changeOrigin: true,
                 pathRewrite: {
                     '^/devApi': ''
+                },
+            },
+            '/resource': {
+                target: "http://www.fleet.com/public", // 公共资源的地址  http://www.fleet.com/public
+                changeOrigin: true,
+                pathRewrite: {
+                    '^/resource': ''
                 },
             }
         }
